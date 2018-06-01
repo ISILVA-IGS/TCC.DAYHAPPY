@@ -1,7 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Tcc.DayHappy.DAL.Data_base.Identity;
 using Tcc.DayHappy.DAL.Data_base.Repositorio;
 using Tcc.DayHappy.DAL.Dominio;
 using Tcc.DayHappy.DAL.Repositorio.Armazenar;

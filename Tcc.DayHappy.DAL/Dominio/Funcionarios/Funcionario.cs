@@ -20,6 +20,20 @@ namespace Tcc.DayHappy.DAL.Dominio.Funcionarios
         public DateTime DataAdm_Func { get; private set; }
         public Endereco Endereco { get; private set; }
 
+        bool validado;
+
+        public Boolean validarUsuario()
+        {
+            if (Email_Func != "" && Senha_Func != "")
+            {
+                if (Email_Func != null && Senha_Func != null)
+                {
+                    this.validado = true;
+                }
+            }
+
+            return validado;
+        }
 
 
     }
