@@ -1,0 +1,129 @@
+﻿@model DayHappy.Web.Models.FuncionarioViewModel
+
+@{
+    ViewData["Title"] = "Funcionario";
+    Layout = "~/Views/Site/_LayoutSite.cshtml";
+}
+
+<h2>Funcionario</h2>
+
+<h4>FuncionarioViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CadastrarFuncionario" asp-controller="Funcionario">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Cod_Func" class="control-label"></label>
+                <input asp-for="Cod_Func" class="form-control" />
+                <span asp-validation-for="Cod_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nome_Func" class="control-label"></label>
+                <input asp-for="Nome_Func" class="form-control" />
+                <span asp-validation-for="Nome_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNasc_Func" class="control-label"></label>
+                <input asp-for="DataNasc_Func" class="form-control" />
+                <span asp-validation-for="DataNasc_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sexo_Func" class="control-label"></label>
+                <input asp-for="Sexo_Func" class="form-control" />
+                <span asp-validation-for="Sexo_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cpf_Func" class="control-label"></label>
+                <input asp-for="Cpf_Func" class="form-control" />
+                <span asp-validation-for="Cpf_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tel1_Func" class="control-label"></label>
+                <input asp-for="Tel1_Func" class="form-control" />
+                <span asp-validation-for="Tel1_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tel2_Func" class="control-label"></label>
+                <input asp-for="Tel2_Func" class="form-control" />
+                <span asp-validation-for="Tel2_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email_Func" class="control-label"></label>
+                <input asp-for="Email_Func" class="form-control" />
+                <span asp-validation-for="Email_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Senha_Func" class="control-label"></label>
+                <input asp-for="Senha_Func" class="form-control" />
+                <span asp-validation-for="Senha_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NomeCargo_Func" class="control-label"></label>
+                <input asp-for="NomeCargo_Func" class="form-control" />
+                <span asp-validation-for="NomeCargo_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Salario_Func" class="control-label"></label>
+                <input asp-for="Salario_Func" class="form-control" />
+                <span asp-validation-for="Salario_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataAdm_Func" class="control-label"></label>
+                <input asp-for="DataAdm_Func" class="form-control" />
+                <span asp-validation-for="DataAdm_Func" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Cod_End" class="control-label"></label>
+                <input asp-for="endereco.Cod_End" class="form-control" />
+                <span asp-validation-for="endereco.Cod_End" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Cep" class="control-label"></label>
+                <input asp-for="endereco.Cep" class="form-control" />
+                <span asp-validation-for="endereco.Cep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Logradouro" class="control-label"></label>
+                <input asp-for="endereco.Logradouro" class="form-control" />
+                <span asp-validation-for="endereco.Logradouro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Numero_Logradouro" class="control-label"></label>
+                <input asp-for="endereco.Numero_Logradouro" class="form-control" />
+                <span asp-validation-for="endereco.Numero_Logradouro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Complemento" class="control-label"></label>
+                <input asp-for="endereco.Complemento" class="form-control" />
+                <span asp-validation-for="endereco.Complemento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Bairro" class="control-label"></label>
+                <input asp-for="endereco.Bairro" class="form-control" />
+                <span asp-validation-for="endereco.Bairro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Cidade" class="control-label"></label>
+                <input asp-for="endereco.Cidade" class="form-control" />
+                <span asp-validation-for="endereco.Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco.Ponto_Referencia" class="control-label"></label>
+                <input asp-for="endereco.Ponto_Referencia" class="form-control" />
+                <span asp-validation-for="endereco.Ponto_Referencia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

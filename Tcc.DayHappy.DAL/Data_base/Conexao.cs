@@ -17,7 +17,7 @@ namespace Tcc.DayHappy.DAL.Data_base
         }
 
         //String de conexão
-        SqlConnection conexao = new SqlConnection("Server=(local);Database=DB_DAYHAPPY;User ID=sa;Password=1234567;");
+        SqlConnection conexao = new SqlConnection("Server=(local);Database=DAYHAPPY;Integrated Security=SSPI");
         //SqlConnection con = new SqlConnection("User ID=sa;Initial Catalog=master;Data Source=(local);");
         //Método de conexão com bd
         public SqlConnection ConectarBD()

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tcc.DayHappy.DAL.Data_base.Repositorio
 {
-    public interface IRepositorio<T,A>
+    public interface IRepositorio<T>
     {
 
         IEnumerable<T> GetAll();

@@ -9,7 +9,7 @@ using Tcc.DayHappy.DAL.Data_base.Util;
 
 namespace Tcc.DayHappy.DAL.Data_base.Repositorio
 {
-    public class ProdutoRepositorio : IRepositorio<Produto,Produto_DB>
+    public class ProdutoRepositorio : IRepositorio<Produto>
     {
         private const string TableName = "TB_PRODUTO";
         protected readonly string ConnectionString;

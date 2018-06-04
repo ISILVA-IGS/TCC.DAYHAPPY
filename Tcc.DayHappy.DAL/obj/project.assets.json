@@ -3827,7 +3827,7 @@
       ]
     },
     "System.Security.Cryptography.Xml/4.4.2": {
-      "sha512": "q9Dren/YP5jhRCkDvLfuaPpMTQzP97ANvzq/OoGgwK8YdLRSTABS9oW5/23OKoM2DRCuBrh4qaecD2YNhPtuzQ==",
+      "sha512": "1m+fKVrApgKYMRuE0MF0vGjqy4XqAp1rCtyAzMXhJajMDDytMh/rHk9hp4M7KKk3QQZoWJUvyUY7xcw74w+JiQ==",
       "type": "package",
       "path": "system.security.cryptography.xml/4.4.2",
       "files": [
@@ -4161,23 +4161,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fernando\\.nuget\\packages\\": {},
+    "C:\\Users\\igor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\TCC DAY HAPPY\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
       "projectName": "Tcc.DayHappy.DAL",
-      "projectPath": "C:\\Users\\Fernando\\Desktop\\TCC DAY HAPPY\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
-      "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fernando\\Desktop\\TCC DAY HAPPY\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\obj\\",
+      "projectPath": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj",
+      "packagesPath": "C:\\Users\\igor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
