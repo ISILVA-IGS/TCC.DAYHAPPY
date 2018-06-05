@@ -28,6 +28,20 @@ namespace Tcc.DayHappy.DAL.Data_base.Repositorio
         //Instancia de conexao com banco de dados
         Conexao conexao = new Conexao();
         SqlCommand comando = new SqlCommand();
+
+
+        public void Create(Funcionario funcionario)
+        {
+            using (var connection = Connection)
+            {
+                connection.Execute(
+                    $"INSERT INTO {TableName} VALUES(@Tipo_Prod,@Tamanho_Prod, @Faixa_Etaria_Prod," +
+                    $"@Valor_Locacao_Prod,@Valor_Custo_Prod,@Descricao_Prod,@Quantidade_Prod)",
+                    funcionario);
+            }
+        }
+
+
         public void Create (Funcionario funcionario)
         {
 

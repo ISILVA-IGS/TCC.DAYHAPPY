@@ -26,3 +26,17 @@ C:\Users\Fernando\Desktop\TCC DAY HAPPY\TCC.DAYHAPPY\DayHappy.Web\obj\Debug\netc
 C:\Users\Fernando\Desktop\TCC DAY HAPPY\TCC.DAYHAPPY\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.csproj.CopyComplete
 C:\Users\Fernando\Desktop\TCC DAY HAPPY\TCC.DAYHAPPY\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.dll
 C:\Users\Fernando\Desktop\TCC DAY HAPPY\TCC.DAYHAPPY\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.pdb
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.deps.json
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.runtimeconfig.json
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.runtimeconfig.dev.json
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.dll
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\bin\Debug\netcoreapp2.0\DayHappy.Web.pdb
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.dll
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\bin\Debug\netcoreapp2.0\Tcc.DayHappy.DAL.pdb
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.csprojAssemblyReference.cache
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.csproj.CoreCompileInputs.cache
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.AssemblyInfoInputs.cache
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.AssemblyInfo.cs
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.csproj.CopyComplete
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.dll
+C:\Users\3binfo\Desktop\TCC\DayHappy.Web\obj\Debug\netcoreapp2.0\DayHappy.Web.pdb

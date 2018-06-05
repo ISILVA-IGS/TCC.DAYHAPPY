@@ -13310,23 +13310,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\igor\\.nuget\\packages\\": {},
+    "C:\\Users\\3binfo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\DayHappy.Web\\DayHappy.Web.csproj",
+      "projectUniqueName": "C:\\Users\\3binfo\\Desktop\\TCC\\DayHappy.Web\\DayHappy.Web.csproj",
       "projectName": "DayHappy.Web",
-      "projectPath": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\DayHappy.Web\\DayHappy.Web.csproj",
-      "packagesPath": "C:\\Users\\igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\DayHappy.Web\\obj\\",
+      "projectPath": "C:\\Users\\3binfo\\Desktop\\TCC\\DayHappy.Web\\DayHappy.Web.csproj",
+      "packagesPath": "C:\\Users\\3binfo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\3binfo\\Desktop\\TCC\\DayHappy.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\3binfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13339,8 +13339,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj": {
-              "projectPath": "C:\\Users\\igor\\Desktop\\TCC-DO-CARALHO\\TCC.DAYHAPPY\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj"
+            "C:\\Users\\3binfo\\Desktop\\TCC\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj": {
+              "projectPath": "C:\\Users\\3binfo\\Desktop\\TCC\\Tcc.DayHappy.DAL\\Tcc.DayHappy.DAL.csproj"
             }
           }
         }

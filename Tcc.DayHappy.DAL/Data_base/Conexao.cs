@@ -10,14 +10,14 @@ namespace Tcc.DayHappy.DAL.Data_base
 
         public string GetConexao()
         {
-            return "Server=(local);Database=DAYHAPPY;Integrated Security=SSPI";
+            return "Data Source=LAB3-PC17;Database=DAYHAPPY;User ID=sa;Password=1234567;";
             // return "Data Source=LAB3-PC16;Database=DB_DAYHAPPY;User ID=sa;Password=1234567;";
             // return "Server=(local);Database=DB_DAYHAPPY;User ID=sa;Password=1234567;";
 
         }
 
         //String de conexão
-        SqlConnection conexao = new SqlConnection("Server=(local);Database=DAYHAPPY;Integrated Security=SSPI");
+        SqlConnection conexao = new SqlConnection("Data Source=LAB3-PC17;Database=DAYHAPPY;User ID=sa;Password=1234567;");
         //SqlConnection con = new SqlConnection("User ID=sa;Initial Catalog=master;Data Source=(local);");
         //Método de conexão com bd
         public SqlConnection ConectarBD()
